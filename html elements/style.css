@@ -1,0 +1,35 @@
+body {
+    background-image: url("christmas-colour.png"); /*be tasko nurodo i visa elementa*/
+}
+
+.greentext{                           /*nurodo tik i konkretu elementa klase (su tasku)*/
+color: green;
+}
+
+.orangetext{
+color: orange;
+}
+
+.firstParagraph{
+font-size: 14px;
+}
+
+.secondPragraph{
+    font-size: 31px;
+}
+
+/*komentaras*/ 
+.photo {
+width: 400px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.table, .table td {
+    border: 5px inset rgb(197, 25, 62); /* border yra css taisykle, reikia pasiziureti*/
+    border-collapse: collapse;
+    background: #cceeff;
+}
+

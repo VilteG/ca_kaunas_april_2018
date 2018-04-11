@@ -1,0 +1,78 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Asmeninė informacija</h2>
+
+        <form>
+
+            <label for="firstname" class="lbl">Vardas:</label>
+            <!-- label nera privalomas, kartais gerai span, be jei yra label, tui buti for, for susirisa su id/  -->
+            <input type="text" name="firstname" id="firstname" value="" class="isdestymas" placeholder="Iveskite savo varda">
+
+            <label for="lastname" class="lbl">Pavardė:</label>
+            <input type="text" name="lastname" id="lastname" value="" class="isdestymas" placeholder="Iveskite savo pavarde">
+            <!-- value- tai, kas butu siunciama ivedus -->
+
+            <label for="salis" class="lbl">Šalis:</label>
+            <!-- <input type="text" name="salis" id="salis" value="" class="isdestymas"> -->
+
+            <select class="text-field" id="salis" name="salis">
+                <option value="Lithuania">Lithuania</option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <br>
+            <div>
+                <input type="radio" id="r1" name="gender" value="Female">
+                <label for="r1">Female</label>
+                <input type="radio" id="r2" name="gender" value="Male">
+                <label for="r2">Male</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="d1" name="weekday" value="Monday">
+                <label for="d1">Monday</label>
+                <input type="checkbox" id="d2" name="weekday" value="Tuesday">
+                <label for="d2">Tuesday</label>
+                <input type="checkbox" id="d3" name="weekday" value="Wednesday">
+                <label for="d3">Wednesday</label>
+            </div>
+            <br>
+            <div>
+
+                <label for="message">Enter message</label>
+                <br>
+                <textarea type="text" value=" id=" message "> </textarea>
+                              
+             </div>
+
+         
+            <button type="button " class="btn"> 
+                <i class="fab fa-telegram-plane "> </i> Siusti 
+            </button>   <!-- iterpiame lektuvelio icona i-->
+
+        </form> 
+
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js " integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl
+                    " crossorigin="anonymous "></script>
+
+</body>
+</html>

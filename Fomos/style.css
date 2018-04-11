@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("vector.jpg");
+}
+
+.isdestymas, .text-field {    
+    display:block; /* surikiuoja stulpeliu, arba su <br> galima */
+}
+
+
+.container{
+width: 760px;
+margin-left: auto;
+margin-right:auto;
+margin-top:50px;
+padding: 20px;
+border:1px solid black;
+background:rgb(235, 173, 173);
+}
+
+.lbl {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+}
+
+.btn{
+    margin-top:30px;
+    padding:10px 20px 10px 20px;
+    border: 2px solid grey;
+    border-radius: 20%;
+    font-size: 20px;
+    }
+
+.btn:hover
+{
+    background-color:rgb(165, 164, 164);
+    transition:1s;    
+}
+
+#message{
+    width: 100%;
+}
+
+.text-field {
+    padding:10px 15px 10px 15px;
+}
+
+input:focus {
+    background-color: rgb(235, 168, 235);  /*laukeli ivedimo uzpildo splava*/
+}

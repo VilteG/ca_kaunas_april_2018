@@ -1,0 +1,18 @@
+
+
+.table, .table td, th{
+    border: 1px inset rgb(12, 12, 12); /* border yra css taisykle, reikia pasiziureti*/
+    border-collapse: collapse;
+        }
+
+    .bcolour th {                      /* td vidinid lenteles elementas, i kuri kreipiesi, ne i pacia* th- header elementas, automatiskai bold ir centeer*/
+        background: #0e9fe7;
+            }
+
+    .lightbcolour td {
+        background: #6593aa;
+        text-align: center;
+    }
+
+    
+   
