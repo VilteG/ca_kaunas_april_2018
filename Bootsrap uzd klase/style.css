@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.stilius{
+    margin:10px 10px 10px 10px;
+    background-color: grey;
+    padding: 40px;
+    border-radius: 30%;
+
+}
