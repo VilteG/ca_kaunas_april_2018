@@ -1,7 +1,3 @@
-body{
-    background-image:url("Images/water.jpg");    
-}
-
 .stilius{
     padding: 30px;
     margin-top: 20px;
@@ -19,10 +15,26 @@ body{
     
 }
 
-.container {
-    background-image: url("Images/water.jpg");
+.container {    
     background-size: cover;
     margin-top:20px;
-
     
 }
+
+.flex-container{
+    display:flex;
+    }
+
+    .mygtuko{
+        width:50%;
+        text-align: right;
+    }
+
+    .checkboxo{
+        width:50%;
+        padding:20px;
+    }
+
+    .dydis{
+        width:100%;
+    }

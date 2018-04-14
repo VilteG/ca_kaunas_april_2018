@@ -1,0 +1,51 @@
+body {
+    font-family: Gugi;
+
+}
+
+.intro {
+    height:240px;
+    margin:0px 20px 0px 20px;
+    
+}
+
+#main {
+    margin-left: 130px; /*kaip normaliai sucentruoti vis1 div elementa*/
+    width:80%;
+    border: dotted black;
+}
+
+#photo {
+    width: 150px;
+    height:220px;
+    float: right;
+    border-radius: 30%;
+    margin-top:10px;
+}
+
+#aboutme {
+border:dotted black;
+margin:20px 20px 0px 20px;
+}
+
+#languages {
+    margin:0px 20px 0px 20px;
+}
+#hobbies {
+    margin:0px 20px 0px 20px;
+}
+
+#table {
+    width:100%;
+    margin-top:20px;
+        }
+
+    td {
+        border-bottom: dotted black;
+    }
+
+    #forma {
+        text-align:center;
+        
+    }
+  

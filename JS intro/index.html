@@ -14,15 +14,28 @@
 
     <script>    
 
-        function lyginti(){
+        function lyginti() {
             let x = document.getElementById("1zodis").value;
             let y = document.getElementById("2zodis").value;
 
             if (x == y) {
                 document.getElementById("result").innerText = "Lygus";
-            } else{
+            } else {
                 document.getElementById("result").innerText = "Nelygus";
             }
+        }
+
+        function login(){
+            let us = document.getElementById("username").value;
+            let ps = document.getElementById("password").value;
+
+            let us_from_server=Frank;
+            let ps_from_server=123;
+
+            if (us==us_from_server){
+                alert("Welcome Frank");
+            }
+
         }
 
     </script>
@@ -31,30 +44,78 @@
 
 <body>
 
-    <div class="container">
+    <div class="container flex-container">
         <div class="row">
-            <div class="col-md-4 offset-4">
+            <div class="col-md-4">
                 <div class="stilius">
-                    
-                        <div class="form-group">
-                            <label>Pirmas žodis</label>
-                            <input type="text" name="1zodis" placeholder="Įvesti pirmą žodį" class="form-control" id="1zodis">
-                        </div>
-                        
-                         <div class="form-group">
-                            <label>Antras žodis</label>
-                            <input type="text" name="1zodis" placeholder="Įvesti antrą žodį" class="form-control" id="2zodis">
-                        </div>
 
-                        <button class= "btn-lg btn-primary" type="button" id="lyginti" onclick="lyginti()">Lyginti</button> <br>
+                    <div class="form-group">
+                        <label>Purmas zodis</label>
+                        <input type="text" name="1zodis" placeholder="Įvesti pirmą žodį" class="form-control" id="1zodis">
+                    </div>
 
-                        <div class="rezultatas">
-                             <span id="result"></span>
-                        </div>
+                    <div class="form-group">
+                        <label>Antras zodis</label>
+                        <input type="text" name="1zodis" placeholder="Įvesti antrą žodį" class="form-control" id="2zodis">
+                    </div>
+
+                    <button class="btn-lg btn-primary" type="button" id="lyginti" onclick="lyginti()">Lyginti</button>
+                    <br>
+
+                    <div class="rezultatas">
+                        <span id="result"></span>
+                    </div>
 
                 </div>
             </div>
         </div>
+
+        <hr>
+
+
+
+        <div class="col-4">
+            <div class="stilius">
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="username" placeholder="Įvesti pirmą žodį" class="form-control" id="username">
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="text" name="password" placeholder="Įvesti antrą žodį" class="form-control" id="password">
+                </div>
+
+                <div>
+                    <a href="#" class="btn btn-default" role="button"> Forgot Your Password? </a>
+
+                </div>
+
+                <div class="flex-container">
+
+                    <div class="checkboxo">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                     </div>
+        
+
+                    <div class="mygtuko">
+                        <button class="btn btn-primary" type="button" id="login" onclick="login">Login</button>
+                    </div>
+
+                    
+
+                </div>
+
+
+                <div class="rezultatas">
+                    <span id="result"></span>
+                </div>
+
+            </div>
+        </div>
+
 
     </div>
 
