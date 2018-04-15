@@ -1,0 +1,25 @@
+body{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+
+.header {
+padding:10px;
+}
+
+.main{
+    height:350px;
+    width: 100%;
+    background-image: url("galaxay.jpg");              
+}
+
+.tekstas{
+    padding: 50px 10px 10px 10px;
+}
+
+.galaxies {
+    text-align: center;
+    margin-top:20px;
+        
+}
+
