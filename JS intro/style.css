@@ -23,6 +23,7 @@
 
 .flex-container{
     display:flex;
+    width: 50%;
     }
 
     .mygtuko{
@@ -38,3 +39,5 @@
     .dydis{
         width:100%;
     }
+
+    
