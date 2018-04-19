@@ -1,6 +1,18 @@
 
 let produktai=[];
 
+let returned_produktai = localStorage.getItem("Prod_sar");
+console.log(returned_produktai);
+let r_produktai = JSON.parse(returned_produktai); // gaunam nebe stringa, o objekta
+console.log(r_produktai);
+
+
+if (r_produktai != null) {
+       produktai = r_produktai;
+       printProduct(produktai); // iskvieciam funkcija kuri grazina issaugota sarasa (tui buti cikla, test it!)
+}
+
+
 function Prideti(){
    
     let newProduct=document.getElementById("product").value;
@@ -14,6 +26,11 @@ function Prideti(){
         alert("reiksme jau egzistuoja");
     }   
     printProduct(produktai);
+
+    let produktai_string = JSON.stringify(produktai); //konvertuoja duomenis i stringa
+    console.log(produktai_string);
+    localStorage.setItem("Prod_sar", produktai_string); // local storage
+
 }
 
 
