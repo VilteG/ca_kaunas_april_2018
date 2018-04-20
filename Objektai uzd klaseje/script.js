@@ -49,7 +49,7 @@ function printProduct(PREKES){
          +"<th>" + PREKES[i].kaina +"</th>"
          +"<th>" + PREKES[i].kiekis + "</th>"
          +"<th>" + PREKES[i].miestas + "</th>"
-         +"<th>" + "<button class='btn btn-link float-right' onclick='salinti("+i+")' role='button'> Salinti </button>" +"</th></tr>"; 
+         +"<th>" + "<class='btn btn-link float-right' onclick='salinti("+i+")' role='button'> Salinti </button>" +"</th></tr>"; 
     }   
      h = h + "</table>"
      document.getElementById("result").innerHTML= h;
@@ -61,9 +61,14 @@ function salinti (index) {
     printProduct(PREKES);
 
     let PREKES_string = JSON.stringify(PREKES);    
-   localStorage.setItem("Prekiusar", PREKES_string); 
+    localStorage.setItem("Prekiusar", PREKES_string); 
     };
 
 function atsaukti(){
     document.getElementById("myForm").reset();
+}
+
+function clearData (){
+    localStorage.removeItem(Prekiusar);
+    PREKES=[];
 }

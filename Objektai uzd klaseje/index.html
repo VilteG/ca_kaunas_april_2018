@@ -22,8 +22,11 @@
                     <div class="forma form-group">
                         <input class="form-control" onfocus="this.value=''" type="text" id="pav" name="pav" placeholder="Pavadinimas">
                     </div>
-                    <div class="forma form-group">
+                    <div class="forma input-group-append"> <!-- apepnd naudoji norint iterpti eur zenkla-->
                         <input class="form-control" onfocus="this.value=''" type="text" id="kaina" name="kaina" placeholder="Kaina">
+                            <div class="input-group-append">        
+                                <span class="input-group-text" id="basic-addon2">eur</span>
+                            </div> 
                     </div>
                     <div class="forma form-group">
                         <input class="form-control" onfocus="this.value=''" type="text" id="kiekis" name="kiekis" placeholder="Kiekis">
@@ -33,7 +36,7 @@
                     </div>
                     <div class='form-group'>
                         <form id="myForm">
-                        <button type="button" class="btn btn-primary" id="register" onclick="sukurti()">Sukurti</button>                        
+                        <button type="button" class="button btn btn-primary" id="register" onclick="sukurti()">Sukurti</button>                                               
                         <button class="btn btn-link float-right" id="atsaukti" onclick="atsaukti()" role="button" value="Reset form"> Atšaukti </button>
                         </form>
                     </div>
