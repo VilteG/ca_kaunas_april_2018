@@ -1,56 +1,63 @@
-//toString()
-//slice()
-//riverse
-//splice -pirmaselemetas nurodo nuo kurio pradeti, antrasis-kiek kartu pakartoti. Gali ir iterpti
-//reverse
-//sort
-//pop
-//index off graina -1 jei sarase nera reiksmes.
-//split
-
-let colors=["red", "green", "blue"];
-colors.push('red');
-colors=ClearDuplicates(colors);
+let colors = ["red","green","blue"];
+colors.push("red");
+colors = clearDuplicates(colors);
 
 let colors_as_string = colors.toString();
-document.getElementById('result').innerText=colors_as_string;
+// sukuria stringa is masyvo "red,green,blue"
+
+document.getElementById("result").innerText = colors_as_string;
+console.log(colors);
 
 
+let split_list = "black,blue,yellow";
+let splitted_colors = split_list.split(',');
 
-function ClearDuplicates(colors){
-    let unique_color_list = [];
-    
-    for(let i=0; i < colors.length; i++){
-        if(unique_color_list.indexOf(colors[i])==-1){
-            unique_color_list.push(colors[i]);
-        }        
-    }
+splitted_colors = splitted_colors.reverse(); // Apvercia masyva, padaro "yellow,blue,black" 
 
-    return unique_color_list;    
-}
+// tikrinam ar zodis yra Rastas
+let wordFound = splitted_colors.indexOf("black") > -1;
 
-//split
-let color_list='black, blue, yellow';
-let color_split=color_list.split(',');
+console.log(splitted_colors);
 
-let spalvos = ["black", "blue", "yellow"];
 
-if (spalvos.indexOf('blue')==-1){
-    alert("blue nerasta");
+let color_list = "black,blue,yellow".split(',');
+console.log(colors2);
+if(color_list.indexOf("red") == -1){
+    console.log("red nerasta");
 }else{
-    alert("blue masyve");
+    console.log("Blue gyvena "+colors2.indexOf("blue")+" vagone");
 }
 
 
+// FUNKCIJOS
 
-// splice naudojimas
-function deleteColors(color, colors) {
-   let x=colors.indexOf(colors);
-    colors.splice(x,1);    
-    return colors;
+
+function clearDuplicates(list_A){
+    let list_B = [];
+
+     for(let i = 0; i < list_A.length; i++) {
+        if( list_B.indexOf(list_A[i]) == -1 ){
+            list_B.push(list_A[i]);
+        }
+     }
+
+    return list_B;
 }
 
+ function deleteWord(word, list_A){    
+     let x = list_A.indexOf(word);
+     list_A.splice(word, 1); 
+     return list_A;
+ }
 
+
+
+//pop
+//splice()
+//split()
+//slice()
+//indexOf()
+//toString()
 
 
 
