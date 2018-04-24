@@ -1,10 +1,10 @@
 let cities=[];
 
-cities.push("Jonava");
-cities.push("Palanga");
-cities.push("Utena");
-cities.push("Taurage");
-cities.push("Plunge");
+//cities.push("Jonava");
+//cities.push("Palanga");
+//cities.push("Utena");
+//cities.push("Taurage");
+//cities.push("Plunge");
 
 
 
@@ -13,7 +13,20 @@ function test() {
     cities.push(newCity);
     //document.getElementById("result").innerText=cities;
     printCities(cities);
-}
+
+    let val_city = $("#txt_city").val();
+
+    if(val_city) {
+		$("#result").html("");
+		$("#val_city").removeClass("is-invalid");
+	} else {
+		$("#result").html("<h3>Laukelis yra tuscias</h3>");
+		$("#val_city").addClass("is-invalid");
+	}
+    }
+
+
+
 
 function printCities(cities){
     h="";
@@ -24,3 +37,4 @@ for (let i=0; i < cities.length; i++){
 document.getElementById("result").innerHTML=h;
 
 }
+
