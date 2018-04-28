@@ -75,3 +75,11 @@ function printCar(array){
 
 	$("#newestCar").html(h);
 };
+
+
+
+$('#btn_ajax').click (function(){
+	$('#result_ajax')
+
+});
+
