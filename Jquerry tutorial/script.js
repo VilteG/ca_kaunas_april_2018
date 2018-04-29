@@ -46,4 +46,7 @@ $('input').blur(function(){
 });
 
 
-/// Perejai iki DOM
+/// DOM manipulation
+
+
+
