@@ -12,7 +12,7 @@ a:hover {
 }
 
 .main{
-    height:350px;
+    height:auto;
     width: 100%;
     background-image: url("images/galaxay.jpg");              
 }
@@ -26,6 +26,20 @@ a:hover {
     margin-top:20px;
         
 }
+
+.learnMore{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button_learnMore{
+    margin-bottom: 20px;
+};
+
+.centravimas {
+    display:inline-block;
+    vertical-align: middle;
+};
 
 
 
