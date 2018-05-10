@@ -1,12 +1,10 @@
 $('#btn_filter').click(function(){
+	
+	let brand_text = $('#brandSelect').val();    
+
     
-    let brand_text = $('#brandSelect').val();    
-
-    //logika
-
     let filteredCars = CARS.filter(function(car){
-        return car.brand.toLocaleLowerCase() == brand_text.toLocaleLowerCase();       
-
+        return car.brand.toLowerCase() == brand_text.toLowerCase();     
     });
 
     let topCar = getTopCar(filteredCars);
@@ -46,7 +44,7 @@ function printTopCar(car){
 	h = h + "<div class='row'>";
 	h = h + "<div class='col-12'>";
     h = h + "<h5>"+car.brand+" "+car.model+"</h5>";
-    h = h + "<div class='brandImg'><img src='cars/" + car.brand.toLowerCase() + ".png' /></div>";
+    h = h + "<div class='brandImg'><img src='cars/" + car.brand + ".png' /></div>";
 	h = h + "<table class='car_table'>";
 	h = h + "<tr><th>Seats:</th><td>"+car.seats+"</td></tr>";
 	h = h + "<tr><th>HP:</th><td>"+car.power+"</td></tr>";
@@ -60,7 +58,7 @@ function printTopCar(car){
 }
 
 function getTopCar(array) {
-    let topCar= [];
+    let topCar= array [0];
         for(let i = 0; i< array.length; i++){
             if(array[i].mileage < topCar.mileage){
                 topCar = array[i];

@@ -1,3 +1,7 @@
+body {
+	font-family: 'Electrolize', sans-serif;
+}
+
 header{
 	background:url('cars_wallpaper_1.png') left;
 	padding-top:30px;
@@ -26,8 +30,8 @@ main{
 	max-width:200px;
 }
 
-.car_table{
-	
+#result {
+padding: 30px;
 }
 
 .separator{
@@ -35,4 +39,24 @@ main{
 	background:#ddd;
 	margin-top:5px;
 	margin-bottom:10px;
+}
+
+@media (min-width: 768px)
+{
+.row-realtive {position: relative;}
+.col-border-padding{padding-left: 15px;}
+
+.col-border{
+	padding: left 0;;
+	position: static;
+}
+
+.col-border:before{
+	content: "";
+	position: absolute;
+	top:0;
+	bottom:0;
+	border-left: 1px solid black;
+}
+
 }
