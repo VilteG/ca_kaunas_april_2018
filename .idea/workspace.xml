@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0795bf1-b783-4857-8b07-608fe2ff3c15" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/+JS Cars filter mileage/JS/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/+JS Cars filter mileage/JS/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/+JS Objektai/cars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/+JS Objektai/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/+JS Objektai/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duplicates_basic_spalvos/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duplicates_basic_spalvos/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duplicates_basic_spalvos/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/CARS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cardata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cars/audi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cars/bmw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cars/citroen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cars/fiat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cars/mazda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cars/renault.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cars/skoda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/cars/vw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Cars Mini Search/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Shoping List/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Shoping List/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Shoping List/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Validation SORT FILTER/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Validation SORT FILTER/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS Validation SORT FILTER/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node js/NodeTest/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node js/NodeTest/package.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0795bf1-b783-4857-8b07-608fe2ff3c15" name="Default" comment="" />
+      <created>1525330988705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525330988705</updated>
+      <workItem from="1525331001829" duration="267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="267000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+</project>

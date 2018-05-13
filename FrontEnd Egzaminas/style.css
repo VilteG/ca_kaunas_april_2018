@@ -1,0 +1,22 @@
+
+
+.title {
+    
+    color: white;
+    height:140px;
+    padding:30px;
+};
+
+#titleImage {
+height:140px;
+width:200px;
+float:right;
+}
+
+.color{
+    background-color: black;
+}
+
+.mainForma{
+    margin-top:30px;
+}

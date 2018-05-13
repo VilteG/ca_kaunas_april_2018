@@ -1,0 +1,25 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 5em;
+    background:#f4f4f4;
+}
+
+#container {
+    width: 90 px;
+    margin:30px;
+    overflow: auto;
+    border: #ccc solid 1px;
+    background: #fff;
+    @include border-radius (10px);
+}
+
+
+
+
+
+section {
+    min-height: 200px;
+}
+
